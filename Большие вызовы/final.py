@@ -37,7 +37,7 @@ df = pd.read_excel("Sample - Superstore.xls")
 
 df.head(3)
 
-"""# Решение возможной проблемы"""
+"""# Preprocessing"""
 
 class Data_Preproccesing():
     def __init__(self, df, holidays):
